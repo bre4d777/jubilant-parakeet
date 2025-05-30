@@ -7,7 +7,7 @@
 - **Premium Feel**: High-end animations that feel expensive and polished
 
 ## 🛠️ Tech Stack
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 
 - **Styling**: Tailwind CSS + Custom CSS for advanced animations
 - **Animations**: Framer Motion + GSAP for complex sequences
 - **Icons**: Lucide React + Custom animated SVGs
