@@ -798,30 +798,6 @@ The package respects Discord's rate limits by:
 
 ---
 
-## Migration Guide
-
-### From v1.x to v2.x
-If you're upgrading from an older version:
-
-1. Update your imports:
-```javascript
-// Old
-const { GiveawayManager, InviteManager } = require('discord-giveaway-invite-manager');
-
-// New
-const { DiscordUtility } = require('discord-giveaway-invite-manager');
-```
-
-2. Use the unified utility class:
-```javascript
-// Old
-const giveaways = new GiveawayManager(client, options);
-const invites = new InviteManager(client, options);
-
-// New
-const utility = new DiscordUtility(client, options);
-// Access via utility.giveaways and utility.invites
-```
 
 ---
 
@@ -874,44 +850,11 @@ We welcome contributions! Please follow these steps:
 7. Push to the branch (`git push origin feature/amazing-feature`)
 8. Open a Pull Request
 
-### Development Setup
-```bash
-git clone https://github.com/your-repo/discord-giveaway-invite-manager
-cd discord-giveaway-invite-manager
-npm install
-npm run build
-npm test
-```
+
+
 
 ---
 
-## License
-
-MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-- 📧 Email: support@yourpackage.com
-- 💬 Discord: [Join our server](https://discord.gg/your-invite)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/issues)
-- 📚 Wiki: [Documentation Wiki](https://github.com/your-repo/wiki)
-
----
-
-## Changelog
-
-### v2.0.0
-- Added unified DiscordUtility class
-- Improved TypeScript support
-- Enhanced error handling
-- Better performance optimizations
-- Added comprehensive event system
-
-### v1.0.0
-- Initial release
-- Basic giveaway management
-- Invite tracking functionality
-- MongoDB integration
 
 ---
 
