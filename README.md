@@ -2,6 +2,8 @@
 
 A complete, type-safe Discord utility package for managing giveaways and invite tracking with MongoDB integration. Built with TypeScript and supports both ESM and CommonJS.
 
+- [example for commonjs](./example.cjs)
+- [example for ts](./example.ts)
 ## Features
 
 ### 🎉 Giveaway Manager
